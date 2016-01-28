@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorBordor"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/title"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/round_button"
+        android:onClick="onClick"
+        android:text="Play"/>
+
+    <Button
+        android:id="@+id/btnHelp"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/round_button"
+        android:onClick="onClick"
+        android:text="Help"/>
+
+    <Button
+        android:id="@+id/btnHighScore"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="High Score"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:background="@drawable/round_button"
+        android:layout_marginTop="40dp"
+        android:onClick="onClick"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onClick"
+        android:text="(c) Copyright - 2016 - AnhTT - HUST"
+        android:id="@+id/copyRightView" />
+
+</LinearLayout>
